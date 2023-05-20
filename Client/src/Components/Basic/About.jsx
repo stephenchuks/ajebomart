@@ -2,8 +2,7 @@ import React, { Fragment } from "react";
 import { Row, Container, Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import wrash from "../../assets/img/wrash.jpg";
-import monday from "../../assets/img/monday.jpg";
-import jkPic from "../../assets/img/jk.JPG";
+
 import { FaGit, FaPhoneAlt, FaGooglePlusG, FaLinkedin } from "react-icons/fa";
 const About = () => {
   return (
@@ -73,59 +72,7 @@ const About = () => {
               </Card>
             </Col>
             <Col md={4} className="text-center heit">
-              {/* <Card>
-                                <Card.Img
-                                    variant="top"
-                                    src={monday}
-                                    className="pro_img"
-                                    alt="###"
-                                />
-                                <Card.Body>
-                                    <Card.Title>#######</Card.Title>
-                                    <Card.Text> <i>#######</i></Card.Text>
-                                    <Card.Text>
-                                        ######### <br />
-                                        <i>
-                                            ######## <br />
-                                            ..
-                                        </i> {/*
-                                        <span className='flex-cls'>
-                                            <FaGooglePlusG />
-                                            <Link to={"https://github.com/Monemax94/"}> <FaGit className="text-danger " /> </Link> <br />
-                                            <Link to={"https://www.linkedin.com/in/monday-odoh-091090171/"}> <FaLinkedin className="text-danger " /> </Link>
-                                            <FaPhoneAlt />
-                                    </span>
-                                    </Card.Text>
-                                </Card.Body>
-
-                            </Card>
-                        </Col>
-                        <Col md={4} className="text-center heit">
-
-                            <Card>
-                                <Card.Img
-                                    variant="top"
-                                    src={jkPic}
-                                    className="pro_img"
-                                    alt="wrash"
-                                />
-                                <Card.Body>
-                                    <Card.Title>###########</Card.Title>
-                                    <Card.Text> <i>#########</i></Card.Text>
-                                    <Card.Text>
-                                        ########### <br />
-                                        <i>
-                                            ###############<br />
-                                        </i>
-                                        <span className='flex-cls'>
-                                            <FaGooglePlusG />
-                                            <Link to={"https://github.com/mathjken/"}> <FaGit className="text-danger " /> </Link> <br />
-                                            <Link to={"https://www.linkedin.com/in/ogu-johnkennedy-bb7424100"}> <FaLinkedin className="text-danger " /> </Link>
-                                            <FaPhoneAlt />
-                                    </span>
-                                    </Card.Text>
-                                </Card.Body>
-                                    </Card>*/}
+             
             </Col>
           </Col>
         </Row>
